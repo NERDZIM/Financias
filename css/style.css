@@ -23,3 +23,5 @@ body { font-family: Arial; padding: 10px; background: white;}
 @media screen and (max-widtch:400px){
     .topnav a{ float: none; width: 100%;}
 }
+
+.img{ float: left;}
