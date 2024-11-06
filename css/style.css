@@ -1,22 +1,45 @@
-*{ box-sizing: border-box;}
+/*BARRA SUPERIOR(PESQUISA)*/
 
+.topnav {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+  }
+  
+  .topnav .botao {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: inline-block;
+  }
+  
+  .topnav .botao:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  
 body { font-family: Arial; padding: 10px; background: white;}
+
+/*END*/
 
 .header { padding: 30px; text-align: center; background: white;}
 
 .header h1  { font-size: 50px;}
 
-.topnav { overflow: hidden; background-color: #333;}
-
-.topnav a { float: left; display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none;} 
-
-.topnav a:hover { background-color: white; color: black;}
-
-.container {width: 100%;}
 
 .fakeimg { background-color: white; width: 100%; padding: 20px;}
 
 .card { background-color: white; padding: 20px; margin-top: 20px;}
+
+/*FOOTER*/
 
 .footer { padding: 20px; text-align: center; background: black; margin-top: 20px; color: white; width: 100%;}
 
@@ -24,4 +47,6 @@ body { font-family: Arial; padding: 10px; background: white;}
     .topnav a{ float: none; width: 100%;}
 }
 
-.img{ float: left;}
+p{text-align: justify;}
+
+.img{ float: right;}
